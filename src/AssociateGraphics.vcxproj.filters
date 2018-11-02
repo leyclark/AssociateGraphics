@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{08aafa7b-e89f-4db9-a436-ed09a20dc09b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ab1cca80-61c0-4bec-8e83-5a91170b7d06}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="MainFrm">
+      <UniqueIdentifier>{cd9c6843-cf1a-4bea-8087-17266ac6c8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsItem">
+      <UniqueIdentifier>{f8b2ba2b-035d-480d-8bd6-e1e55c544f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsItem\NodeItem">
+      <UniqueIdentifier>{b7c8839c-cf85-45f6-8e02-2ef52f416046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{744939d6-5a29-48c0-b932-ff51f0d15fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{33fc3df6-2917-4929-ba74-30c32720e46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsItem\LinkItem">
+      <UniqueIdentifier>{7ea89381-eac2-4a9c-a2c7-af7eba505d35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainForm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainForm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_GraphicsPathObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GraphicsPathObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeItemBody.cpp">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeItemBody.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeItemBody.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorPoint.cpp">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnchorPoint.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnchorPoint.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeItem.cpp">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CanvasScene.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CanvasScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CanvasScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkItem.cpp">
+      <Filter>GraphicsItem\LinkItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LinkItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LinkItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPathObject.cpp">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkItemCurve.cpp">
+      <Filter>GraphicsItem\LinkItem</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeItemAnchor.cpp">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeItemAnchor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeItemAnchor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeItemText.cpp">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeItemText.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeItemText.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkItemIndicator.cpp">
+      <Filter>GraphicsItem\LinkItem</Filter>
+    </ClCompile>
+    <ClCompile Include="NewLinkHandler.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MainForm.ui">
+      <Filter>MainFrm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainForm.h">
+      <Filter>MainFrm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodeItemBody.h">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnchorPoint.h">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodeItem.h">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CanvasScene.h">
+      <Filter>Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LinkItem.h">
+      <Filter>GraphicsItem\LinkItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GraphicsPathObject.h">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resource.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LinkItemCurve.h">
+      <Filter>GraphicsItem\LinkItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodeItemAnchor.h">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodeItemText.h">
+      <Filter>GraphicsItem\NodeItem</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_MainForm.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkItemIndicator.h">
+      <Filter>GraphicsItem\LinkItem</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLinkHandler.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cube.png">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
